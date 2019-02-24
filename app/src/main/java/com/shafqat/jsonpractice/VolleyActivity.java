@@ -56,7 +56,7 @@ public class VolleyActivity extends AppCompatActivity implements AdapterView.OnI
 
     private void CallApiUsingVolleyLib() {
 
-        JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, "http://www.googlelabz.com/ptc/api/class-by-teacher/11", null,
+        JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, "http://www.goog.....", null,
                 new Response.Listener<JSONObject>() {
                     @TargetApi(Build.VERSION_CODES.KITKAT)
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
